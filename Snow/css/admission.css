@@ -1,0 +1,67 @@
+body{
+	background-color:#eee;
+}
+
+.header-title span{
+	display:block;
+	text-align: center;
+	background-color:#34bf49;
+	padding:20px 0;
+}
+.header-title span a{
+	font-size:35px;
+	color:#fff;
+}
+.header-title span a:hover{
+	text-decoration: none;
+	text-shadow: 0 0 1px #eee;
+}
+
+/* .header-nav */
+
+.header-nav{
+	background-color:#222;
+	border:0;
+	border-radius: 0;
+}
+
+.header-nav a{
+	font-weight:bold;
+}
+.header-nav .nav li .active, .header-nav .nav li a:hover{
+	color:#fff;
+}
+
+
+/* .wrapper */
+
+.wrapper{
+	margin-top:40px;
+}
+.form .panel-heading{
+	background-color:#34bf49;
+} 
+.form .panel-heading span{
+	font-size:14px;
+	font-weight: bold;
+	color:#fff;
+}
+
+.form .panel .panel-body{
+	padding:15px 30px;
+}
+.form-list ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.form-list li{
+	display:block;
+	padding:10px 0;
+}
+.form-list li label{
+	width:20%;
+}
+.form-list li input{
+	width:250px;
+}
