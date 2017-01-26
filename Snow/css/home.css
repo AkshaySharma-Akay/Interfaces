@@ -1,0 +1,176 @@
+/* .slide  */
+
+.slide{
+	height:550px;
+	overflow:hidden;
+}
+.slide img{
+	width:100%;
+	height:550px;
+}
+/* end .slide */
+
+/* .blockheading */
+
+.block-heading{
+	padding:20px 0;
+}
+.block-heading h1{
+	box-sizing: border-box;
+	position:relative;
+	font-family: Calibri, "Helvetica", san-serif;
+  	position: relative;
+  	text-align: center;
+  	padding:10px 0;
+  	font-size:30px;
+}
+
+.block-heading h1:after {
+	content:' ';
+	position: absolute;
+	top:100%;
+	left:50%;
+	width: 50px;
+	border:2px solid #34bf49;
+	border-radius:4px;
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+	transform:translateX(-50%);
+}
+
+/* end .blockheading */
+
+/* .services */
+
+.services{
+	padding:0 0 50px 0;
+	background-color:#F8F8F8;
+}
+.services .row i{
+	display:block;
+	width:100%;
+	text-align:center;
+	padding:20px 0;
+	font-size:50px;
+}
+.services .row .caption{
+	padding:0;
+}
+.services .row h3{
+	text-align: center;
+	font-size:18px;
+	margin:0;
+	padding:15px;
+	background-color:#34bf49;
+	color:#fff;
+}
+.services a{
+	padding:0;
+	text-decoration: none;
+	color:#34bf49;
+}
+.services a:hover{
+	box-shadow:0;
+	border:1px solid #34bf49;
+}
+
+/* end .services */
+
+/* .aboutus */
+
+.aboutus{
+	padding:70px 0;
+}
+
+.aboutus article img{
+	width:100%;
+	height:350px;
+}
+
+.aboutus-heading h1{
+	box-sizing: border-box;
+	position:relative;
+  	padding:0 0 5px 0;
+  	margin:0px;
+  	color:#34bf49;
+  	border-bottom:5px solid #efefef;
+}
+
+.aboutus article p{
+	margin:0;
+	font-size:15px;
+	padding:20px 0;
+}
+.aboutus article span a{
+	background-color:#34bf49;
+	display:inline-block;
+	padding:10px 20px;
+	color:#fff;
+	font-size:17px;
+	border-radius:5px;
+	transition:all 0.5s ease-in;
+}
+.aboutus article span a:hover{
+	text-decoration: none;
+	background-color:#fff;
+	color:#34bf49;
+	box-shadow:0 0 1px 1px #34bf49;
+}
+
+/* .news */
+
+.post-block{
+	background-color:#f8f8f8;
+	padding-bottom:20px;
+}
+.post-block .row article img{
+	height:180px;
+	width:100%;
+}
+.post-block .row article h3{
+	font-size:18px;
+	color:#34bf49;
+	margin:0;
+	padding:10px 0;
+}
+.post-block .row article p{
+	font-size:14px;
+}
+.post-block .row article p a{
+	background-color:#34bf49;
+	color:#fff;
+}
+/* end .news */
+
+/* .team */
+
+
+/* .footer */
+
+.footer{
+	background-color:#34bf49;
+	padding:15px 0;
+	box-shadow:0 0 1px 1px #fff;
+}
+.footer p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#fff;
+}
+.footer article{
+	text-align: right;
+}
+.footer article p:first-child{
+	text-align: left;
+}
+.footer p a{
+	color:#333;
+	text-decoration: underline;
+	transition:all 0.2s ease-in;
+}
+.footer p a i{
+	padding:0 15px;
+}
+.footer p a:hover{
+	color:#fff;
+}
