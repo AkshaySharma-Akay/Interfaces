@@ -142,35 +142,3 @@
 /* end .news */
 
 /* .team */
-
-
-/* .footer */
-
-.footer{
-	background-color:#34bf49;
-	padding:15px 0;
-	box-shadow:0 0 1px 1px #fff;
-}
-.footer p{
-	margin:0;
-	padding:0;
-	font-size:14px;
-	color:#fff;
-}
-.footer article{
-	text-align: right;
-}
-.footer article p:first-child{
-	text-align: left;
-}
-.footer p a{
-	color:#333;
-	text-decoration: underline;
-	transition:all 0.2s ease-in;
-}
-.footer p a i{
-	padding:0 15px;
-}
-.footer p a:hover{
-	color:#fff;
-}

@@ -1,0 +1,77 @@
+/* Custom Stylesheet for the Header and Footer Design */
+
+/* header section */
+
+/* header-top */
+.header-top{
+	margin:0;
+	min-height:0px;
+	border:0;
+	background-color:#34bf49;
+	border-radius:0;
+}
+.header-top .nav li a, .header-top .nav span{
+	padding:10px 15px;
+	font-size:14px;
+	line-height:14px;
+	color:#fff;
+	position:relative;
+	display:block;
+	float:left;
+}
+
+/* end .header-top */
+
+
+/* .header-title */
+
+.header-title{
+	margin:0;
+	background-color:#fff;
+	border:none;
+	border-radius:0;
+}
+.header-title .navbar-brand{
+	font-size:30px;
+	padding:20px 15px;
+	color:#34bf49;
+}
+.header-title .nav > li >a{
+	padding:20px 15px;
+	color:;
+}
+
+/* end .header-title */
+
+/* header section ends here */
+
+/* .footer */
+
+.footer{
+	background-color:#34bf49;
+	padding:15px 0;
+	box-shadow:0 0 1px 1px #fff;
+}
+.footer p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#fff;
+}
+.footer article{
+	text-align: right;
+}
+.footer article p:first-child{
+	text-align: left;
+}
+.footer p a{
+	color:#333;
+	text-decoration: underline;
+	transition:all 0.2s ease-in;
+}
+.footer p a i{
+	padding:0 15px;
+}
+.footer p a:hover{
+	color:#fff;
+}
