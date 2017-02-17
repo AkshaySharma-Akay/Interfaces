@@ -1,67 +1,88 @@
-body{
-	background-color:#eee;
+.header-top-nav{
+	width:100%;
+	background-color:#292B34;
+	border:0;
+	border-radius:0;
+	margin:0;
 }
 
-.header-title span{
-	display:block;
-	text-align: center;
-	background-color:#34bf49;
-	padding:20px 0;
+.header-top-nav .navbar-brand, .header-top-nav .nav > li > a{
+	color:#ddd;
+	transition:all 0.5s ease-in;
 }
-.header-title span a{
-	font-size:35px;
+.header-top-nav .navbar-brand i{
+}
+.header-top-nav .navbar-brand:hover, .header-top-nav .nav > li > a:hover{
 	color:#fff;
+	text-shadow: 0 0 1px #fff;
 }
-.header-title span a:hover{
-	text-decoration: none;
-	text-shadow: 0 0 1px #eee;
-}
-
-/* .header-nav */
 
 .header-nav{
-	background-color:#222;
+	background-color:#f6f6f6;
 	border:0;
-	border-radius: 0;
+	border-radius:0;
+	margin:0;
+	border-bottom:5px solid #00B257;
 }
 
-.header-nav a{
-	font-weight:bold;
+.header-nav .nav > li > a{
+	color:#666;
 }
-.header-nav .nav li .active, .header-nav .nav li a:hover{
-	color:#fff;
+.header-nav .nav .active > a{
+	color:#111;
+	background-color: transparent;
 }
-
 
 /* .wrapper */
 
 .wrapper{
-	margin-top:40px;
-}
-.form .panel-heading{
-	background-color:#34bf49;
-} 
-.form .panel-heading span{
-	font-size:14px;
-	font-weight: bold;
-	color:#fff;
+	margin-top:30px;
 }
 
-.form .panel .panel-body{
-	padding:15px 30px;
-}
-.form-list ul{
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-.form-list li{
+.form-block .form-heading span{
 	display:block;
+	font-size:30px;
 	padding:10px 0;
 }
-.form-list li label{
-	width:20%;
+.form-block .form-body ul{
+	list-style: none;
 }
-.form-list li input{
+.form-block .form-body ul li{
+	padding:10px 0;
+}
+.form-block .form-body ul li label{
 	width:250px;
+}
+.form-block .form-body ul li input{
+	min-width:250px;
+}
+
+/* .form-submit */
+.form-submit{
+	margin:20px 0;
+	text-align: center;
+}
+
+.form-submit input{
+	background-color:#00B257;
+	color:#fff;
+	padding:10px 25px;
+	font-weight:bold;
+	border-radius:5px;
+	margin:0 20px;
+	border:0;
+	transition:all 0.5s ease-in;
+}
+.form-submit input:hover{
+	box-shadow: 0 0 1px 1px #00B257;
+}
+
+.footer{
+	background-color:#232B34;
+	color:#fff;
+	padding:20px 0;
+}
+.footer p{
+	text-align: center;
+	margin:0;
 }
