@@ -1,0 +1,73 @@
+.form-wrapper{
+	margin:20px 30px;
+}
+
+/* general panel settings */
+
+.panel-default .panel-heading{
+	background-color:#25282E;
+}
+
+.panel-heading span{
+	color:#fff;
+	font-weight:bold;
+}
+
+.admission-form ul{
+	margin:20px 0;
+	list-style:none;
+}
+.admission-form li{
+	display:block;
+	padding:10px 0;
+}
+.admission-form label{
+	width:200px;
+}
+.admission-form input{
+	min-width:200px;
+	max-width:calc(100% - 250px);
+}
+.admission-form li .errorlist{
+	margin:0;
+	padding:0 0 0 5px;
+}
+.admission-form li .errorlist li:before{
+	content: "*";
+}
+.admission-form li .errorlist li{
+	padding:5px 0;
+	color:#ff4c4c;
+	font-weight:bold;
+}
+
+.admission-form-submit{
+	margin:20px 0;
+	padding:20px 0;
+	text-align: center;
+}
+.admission-form-submit input{
+	padding:10px 25px;
+	width:auto;
+	background-color:#5C9DF5;
+	color:#fff;
+	font-weight:bold;
+	border-radius:5px;
+	border:0;
+	margin:0 10px ;
+	transition:all 0.3s ease-in;
+}
+.admission-form-submit input:hover{
+	background-color:#ff4c4c;
+	box-shadow:0 0 1px 1px #eee;
+}
+
+.admission-form-subheading{
+	display:block;
+	margin:0;
+	padding:35px 0;
+	font-size:21px;
+	font-family: 'Lato';
+	border-bottom:;
+	font-weight:bold;
+}
