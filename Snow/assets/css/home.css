@@ -1,14 +1,16 @@
-/* .slide  */
 
-.slide{
-	height:550px;
-	overflow:hidden;
-}
-.slide img{
+.container-override{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	padding:0;
 	width:100%;
-	height:550px;
 }
-/* end .slide */
+
+.container-override img{
+	pointer-events:none;
+}
 
 /* .blockheading */
 
