@@ -125,12 +125,54 @@ font-family: 'Open Sans Condensed', sans-serif;*/
 /*---------------------------*/
 
 #sigs{
-    background-color:#fff;
-    min-height: 600px;
+    background-color:transparent;
+}
+#sigs-header{
+    background-color:goldenrod;
 }
 .block-header h1{
     font-family: 'Open Sans Condensed', sans-serif;
     margin:0px;
-    padding:20px 0px;
+    padding:30px 0px;
     text-align: center;
+    font-weight:bold;
+}
+#sigs-body{
+    padding:30px 0px;
+    background-color:#fff;
+}
+#sigs a{
+    display: block;
+    text-align: center;
+    color: #362417;
+    margin: 20px;
+    box-shadow: 0px 28px 74px -65px #000;
+}
+#sigs a:hover{
+    text-decoration: none;
+}
+#sigs a span{
+    display:block;
+    padding:15px 0px;
+    font-size:18px;
+}
+#sigs a i{
+    display: block;
+    font-size:45px;
+    padding:25px 0px;
+}
+
+
+#footer{
+    background-color:#fff;
+    padding:10px;
+    text-align: center;
+}
+#footer p{
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+}
+#footer a{
+    color:goldenrod;
 }

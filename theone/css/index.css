@@ -1,0 +1,69 @@
+body{
+    background-color:#FCEFEF;
+
+    font-family: 'Amatic SC', cursive;
+}
+
+#wrapper{
+    min-height: 100vh;
+    min-width: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#welcome{
+    font-family: 'Amatic SC', cursive;
+}
+#welcome-header{
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px -17px #555;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:22px;
+    font-weight: bold;
+    animation-duration: 2s;
+}
+#welcome-header img{
+    width:150px;
+    height:150px;
+    border:5px solid #fff;
+    box-shadow:0px 0px 10px -7px #efefef;
+    border-radius: 50%;
+    margin-bottom:10px;
+}
+.sur-btn a{
+    display: block;
+    background-color: crimson;
+    color: peachpuff;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 7px 0px;
+    min-width: 160px;
+    margin-top: 15px;
+    animation-duration: 5s;
+}
+.sur-btn a:hover{
+    text-decoration: none;
+}
+@media all and (max-width:768px)
+{
+    #welcome{
+        margin:20px 10px;
+    }
+    #welcome img{
+        width:calc(100% - 100px);
+        height:auto;
+    }
+    #welcome{
+        font-size:32px;
+    }
+}
